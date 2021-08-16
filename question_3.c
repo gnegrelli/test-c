@@ -5,9 +5,9 @@
 
 char *ConcatRemove(char *s, char *t, int k){
     // Assert conditions
-    assert(strlen(s) >= 1 & strlen(s) <= 100);
-    assert(strlen(t) >= 1 & strlen(t) <= 100);
-    assert(k >= 1 & k <= 100);
+    assert((strlen(s) >= 1) & (strlen(s) <= 100));
+    assert((strlen(t) >= 1) & (strlen(t) <= 100));
+    assert((k >= 1) & (k <= 100));
 
     // Check if strings are already equal
     if (strcmp(s, t) == 0){
@@ -39,8 +39,6 @@ char *ConcatRemove(char *s, char *t, int k){
     return "no";
 }
 
-void main(void){
-    char *s = "blablablabla";
-    char *t = "blablabcde";
-    printf("%s", ConcatRemove(s, t, 8));
+int main(void){
+    return 0;
 }

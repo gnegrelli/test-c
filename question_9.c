@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main(void){
+int main(void){
     char *s = NULL;
     printf("Enter string to be measured:\n");
     scanf("%m[^\n]s", &s);
@@ -15,4 +15,5 @@ void main(void){
         }
         printf("String \"%s\" is %d characters long.", s, i);
     }
+    return 0;
 }
