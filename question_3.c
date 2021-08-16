@@ -38,7 +38,3 @@ char *ConcatRemove(char *s, char *t, int k){
     // Return no if string cannot be mutated within k iterations
     return "no";
 }
-
-int main(void){
-    return 0;
-}
